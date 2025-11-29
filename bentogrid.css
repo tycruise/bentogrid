@@ -32,7 +32,7 @@ body {
   margin-left: 38%;
 }
 
-.gridContainer > div {
+.gridContainer>div {
   padding-inline: 10px;
   border-radius: 5px;
 }
@@ -51,12 +51,12 @@ body {
   padding-right: 20px;
   letter-spacing: -3px;
   height: 320px;
-  width:200px;
+  width: 200px;
   padding-left: 20px;
 }
 
-.item1 img{
-margin-top:10px;
+.item1 img {
+  margin-top: 10px;
 }
 
 .item2 {
@@ -75,21 +75,21 @@ margin-top:10px;
 .item3 {
   background-color: #dcd1fc;
   grid-column: 3 / span 0;
-  margin-right:500px;
+  margin-right: 500px;
   width: 210px;
   height: 500px;
   margin-bottom: 16px;
 
 
-  
+
 }
 
 .item4 {
   background-color: #ffffff;
   grid-column: 2 / span 1;
   grid-row: 2;
-  margin-top:-250px;
-  height:200px;
+  margin-top: -250px;
+  height: 200px;
   width: 210px;
 }
 
@@ -97,10 +97,10 @@ margin-top:10px;
   background-color: #ffcc69;
   grid-column: 3;
   grid-row: 3 / span 0;
-  height:200px;
-  margin-top:-250px;
+  height: 200px;
+  margin-top: -250px;
 
-  height:200px;
+  height: 200px;
   width: 200px;
 }
 
@@ -116,20 +116,22 @@ margin-top:10px;
   color: white;
   font-size: x-large;
   width: 200px;
-  margin-top:-45px;
-    height:165px;
-  width:429px;
+  margin-top: -45px;
+  height: 165px;
+  width: 429px;
 }
-.item6 img{
+
+.item6 img {
   object-fit: contain;
   height: 150px;
 }
+
 .item7 {
   background-color: #ffffff;
   grid-column: 2;
   grid-row: 3;
-  margin-top:-45px;
-   height:165px;
+  margin-top: -45px;
+  height: 165px;
   width: 210px;
 }
 
@@ -138,26 +140,28 @@ margin-top:10px;
   background-color: #ffcc69;
   grid-row: 3 / span 0;
   grid-column: 1;
-  height:330px;
+  height: 330px;
   font-size: 30px;
-    width:200px;
-    margin-top: -210px;
-   
-  
+  width: 200px;
+  margin-top: -210px;
+
+
 }
-.item8 p{
+
+.item8 p {
   margin: 10px;
   font-size: 30px;
   font-weight: 540;
   line-height: 30px;
   letter-spacing: -2px;
 }
-.item8 img{
+
+.item8 img {
   height: 180px;
-  width:178px;
+  width: 178px;
   margin-top: 30px;
   margin-left: 5px;
-  padding-bottom:5px;
+  padding-bottom: 5px;
   padding-right: 5px;
 }
 
@@ -165,6 +169,7 @@ margin-top:10px;
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
