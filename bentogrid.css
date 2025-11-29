@@ -71,19 +71,50 @@ body {
   height: 260px;
   width: 430px;
 }
-
+.item2 p{
+  font-weight: 540;
+  font-size: 2.9rem;
+}
+.item2 img{
+  width: 150px;
+  padding-top: 7px;
+}
+.item2 .over{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
 .item3 {
   background-color: #dcd1fc;
   grid-column: 3 / span 0;
   margin-right: 500px;
-  width: 210px;
+  width: 220px;
   height: 500px;
   margin-bottom: 16px;
-
-
-
+  padding-top: 10px;
+  padding-bottom: 20px;
+  object-fit: contain;
+  overflow: hidden;
 }
-
+.item3 p{
+  font-size: 22px;
+  font-weight: 700;
+  padding-left: 10px;
+  letter-spacing:-1px;
+  padding-bottom: 10px;
+}
+.item3 img{
+  height:290px;
+  width:fit-content;
+  padding-left: 10px;
+  /* object-fit: cover; */
+  border-radius: 20px;
+}
+.item3 .opt{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: 350;
+}
 .item4 {
   background-color: #ffffff;
   grid-column: 2 / span 1;
@@ -91,19 +122,45 @@ body {
   margin-top: -250px;
   height: 200px;
   width: 210px;
+  object-fit: contain;
+  overflow: hidden;
+  
 }
+.item4 img{
 
+  height: 70px;
+  width: 270px;
+  padding-left: 10px;
+}
+.item4 p{
+  font-size: 25px;
+  font-weight: 600;
+   padding-bottom: 10px; 
+   line-height: 25px;
+
+}
 .item5 {
   background-color: #ffcc69;
   grid-column: 3;
   grid-row: 3 / span 0;
   height: 200px;
   margin-top: -250px;
-
   height: 200px;
   width: 200px;
+  overflow: hidden;
 }
+.item5 img{
+  width:170px;
+padding-top: 20px;
+padding-left: 10px;
+object-fit: cover;
+}
+.item5 p{
+  font-size: 1.4rem;
+  font-weight: 600;
+   line-height: 25px;
 
+}
 .item6 {
   background-color: #7651dc;
   grid-column: 3 / span 2;
@@ -118,7 +175,7 @@ body {
   width: 200px;
   margin-top: -45px;
   height: 165px;
-  width: 429px;
+  width: 439px;
 }
 
 .item6 img {
@@ -134,8 +191,15 @@ body {
   height: 165px;
   width: 210px;
 }
-
-
+.item7 span{
+  font-weight: 540;
+}
+.item7 span ,p{
+  padding:5px;
+  }
+.item7 img{
+  padding-top: 10px;
+}
 .item8 {
   background-color: #ffcc69;
   grid-row: 3 / span 0;
@@ -159,7 +223,7 @@ body {
 .item8 img {
   height: 180px;
   width: 178px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 5px;
   padding-bottom: 5px;
   padding-right: 5px;
